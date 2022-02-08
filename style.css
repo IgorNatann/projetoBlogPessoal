@@ -1,0 +1,75 @@
+body {
+    background: #f7f7f7;
+    font-family: verdana;
+    max-width: 900px;
+    margin: auto;
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+    height: 125px; /* Define Altura */ /*max-height formata a altura maxima*/
+    width: 150px; /* Define Largura */ /*max-widht formata a largura maxima*/
+}
+
+#title, .subtitle, .post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color:#505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: white;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 10px;
+     
+    /*Exemplo de estilização das bordas e seus lados.
+    border-top: 5px dotted black; /* Referece a parte de cima da caixa 
+    border-right: 5px dashed pink; /* Referece ao lado direito da caixa 
+    border-left: 5px solid blue; /* Referece ao lado esquerdo da caixa 
+    border-bottom: 5px solid green; /* Referece ao lado de baixo da caixa 
+    /* Exemplo para definição resumida */
+    /* border-width = Define a largura da linha da caixa */
+    /* border-color = Define a cor da linha da caixa */
+    /* border-style = Define o estilo da linha contarnando a caixa */
+    
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image {
+    margin: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    text-decoration: none;
+}
